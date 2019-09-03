@@ -58,6 +58,23 @@ print ("\nMatriz de ceros enteros:\n", A)
 A = np.eye(4)
 A
 
+#Se crea una matriz de Unos con dimensiones de 2 * 3
+A= np.ones((2,3))
+print ("\nMatriz de de unos enteros:\n",A)
+
+#Creamos una matriz de identidad de 3*3
+A = np.identity(3)
+A
+
+#crea un array con «basura», equivalente a no inicializarlo, ligeramente más rápido que zeros o ones
+A = np.empty([2,3])
+A
+
+# full(shape, fill_value) crea una matriz cuyo contenido está especificado por el valor fill_value, en este caso
+# es una matriz de 5 * 5 y en esa matriz se introduce el valor de 8 
+A = np.full((5,5), 8)
+A
+
 # Arreglos con Rangos
 # En algunas ocasiones es necesario crear arreglos conciertos rangos específicos:
 
