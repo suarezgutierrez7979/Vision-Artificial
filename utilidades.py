@@ -1,4 +1,5 @@
-# Importamos las bibliotecas necesarias y les asigamos un alias
+# Siempre que usemos matplotlib en Jupyter es necesario poner esta línea antes de cualquier otra
+%matplotlib inline
 import skimage                           # Biblioteca para la manipulación de imágenes
 import numpy as np                       # Biblioteca para la manipulación de matrices
 
